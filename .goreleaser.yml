@@ -1,0 +1,62 @@
+# ref. https://goreleaser.com/customization/build/
+builds:
+  - id: metal-cli
+    main: ./main.go
+    binary: metal
+    flags:
+      - -v
+    # windows is ignored by default, as the `goos` field by default only
+    # contains linux and darwin
+    ldflags:
+      - -X 'github.com/MetalBlockchain/metal-cli/cmd.Version={{.Version}}'
+      - -X 'github.com/MetalBlockchain/metal-cli/pkg/utils.telemetryToken={{ .Env.TELEMETRY_TOKEN }}'
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=1
+      - CGO_CFLAGS=-O -D__BLST_PORTABLE__ # Set the CGO flags to use the portable version of BLST
+    overrides:
+      - goos: linux
+        goarch: arm64
+        env:
+          - CC=aarch64-linux-gnu-gcc
+      - goos: darwin
+        goarch: arm64
+        env:
+          - CC=oa64-clang
+      - goos: darwin
+        goarch: amd64
+        goamd64: v1
+        env:
+          - CC=o64-clang
+dockers:
+  - image_templates:
+    - 'metalblockchain/metal-cli:{{ .Tag }}-amd64'
+    dockerfile: "{{ .Env.DOCKERFILE }}"
+    use: buildx
+    build_flag_templates:
+    - "--pull"
+    - "--platform=linux/amd64"
+  - image_templates:
+    - 'metalblockchain/metal-cli:{{ .Tag }}-arm64'
+    dockerfile: "{{ .Env.DOCKERFILE }}"
+    use: buildx
+    build_flag_templates:
+    - "--pull"
+    - "--platform=linux/arm64"
+    goarch: arm64
+docker_manifests:
+  - name_template: 'metalblockchain/metal-cli:{{ .Tag }}'
+    image_templates:
+    - 'metalblockchain/metal-cli:{{ .Tag }}-amd64'
+    - 'metalblockchain/metal-cli:{{ .Tag }}-arm64'
+release:
+  # Repo in which the release will be created.
+  # Default is extracted from the origin remote URL or empty if its private hosted.
+  github:
+    owner: MetalBlockchain
+    name: metal-cli
