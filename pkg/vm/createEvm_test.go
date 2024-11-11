@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/MetalBlockchain/metal-cli/internal/testutils"
+	"github.com/ixAnkit/cryft/internal/testutils"
 	"github.com/MetalBlockchain/subnet-evm/core"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"

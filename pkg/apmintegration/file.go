@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/MetalBlockchain/apm/types"
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/application"
 	"gopkg.in/yaml.v3"
 )
 

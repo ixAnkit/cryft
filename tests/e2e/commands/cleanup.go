@@ -10,8 +10,8 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/onsi/gomega"
 )
 

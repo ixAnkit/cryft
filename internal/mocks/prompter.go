@@ -10,9 +10,9 @@ import (
 
 	mock "github.com/stretchr/testify/mock"
 
-	models "github.com/MetalBlockchain/metal-cli/pkg/models"
+	models "github.com/ixAnkit/cryft/pkg/models"
 
-	prompts "github.com/MetalBlockchain/metal-cli/pkg/prompts"
+	prompts "github.com/ixAnkit/cryft/pkg/prompts"
 
 	time "time"
 

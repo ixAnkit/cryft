@@ -14,7 +14,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/onsi/gomega"
 )
 

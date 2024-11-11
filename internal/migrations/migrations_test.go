@@ -7,10 +7,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/config"
-	"github.com/MetalBlockchain/metal-cli/pkg/prompts"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/config"
+	"github.com/ixAnkit/cryft/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/stretchr/testify/require"
 )

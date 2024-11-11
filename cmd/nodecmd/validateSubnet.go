@@ -10,15 +10,15 @@ import (
 
 	"github.com/MetalBlockchain/metalgo/vms/platformvm/status"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/ansible"
-	"github.com/MetalBlockchain/metal-cli/pkg/ssh"
+	"github.com/ixAnkit/cryft/pkg/ansible"
+	"github.com/ixAnkit/cryft/pkg/ssh"
 
-	subnetcmd "github.com/MetalBlockchain/metal-cli/cmd/subnetcmd"
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/keychain"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/subnet"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	subnetcmd "github.com/ixAnkit/cryft/cmd/subnetcmd"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/keychain"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/subnet"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/maps"

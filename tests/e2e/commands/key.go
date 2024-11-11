@@ -5,7 +5,7 @@ package commands
 import (
 	"os/exec"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 )
 
 /* #nosec G204 */

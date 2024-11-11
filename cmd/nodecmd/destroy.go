@@ -8,13 +8,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/utils"
 
-	awsAPI "github.com/MetalBlockchain/metal-cli/pkg/cloud/aws"
-	gcpAPI "github.com/MetalBlockchain/metal-cli/pkg/cloud/gcp"
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	awsAPI "github.com/ixAnkit/cryft/pkg/cloud/aws"
+	gcpAPI "github.com/ixAnkit/cryft/pkg/cloud/gcp"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"golang.org/x/exp/maps"
 	"golang.org/x/net/context"
 

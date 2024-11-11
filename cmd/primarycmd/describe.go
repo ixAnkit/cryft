@@ -8,12 +8,12 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/evm"
-	"github.com/MetalBlockchain/metal-cli/pkg/key"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/networkoptions"
-	"github.com/MetalBlockchain/metal-cli/pkg/subnet"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/evm"
+	"github.com/ixAnkit/cryft/pkg/key"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/networkoptions"
+	"github.com/ixAnkit/cryft/pkg/subnet"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/MetalBlockchain/metalgo/utils/units"
 

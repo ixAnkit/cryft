@@ -4,8 +4,8 @@
 package subnet
 
 import (
-	"github.com/MetalBlockchain/metal-cli/tests/e2e/commands"
-	"github.com/MetalBlockchain/metal-cli/tests/e2e/utils"
+	"github.com/ixAnkit/cryft/tests/e2e/commands"
+	"github.com/ixAnkit/cryft/tests/e2e/utils"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )

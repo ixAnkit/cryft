@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	"golang.org/x/exp/slices"
 )

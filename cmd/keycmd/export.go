@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 
 	"github.com/spf13/cobra"
 )

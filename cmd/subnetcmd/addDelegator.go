@@ -8,17 +8,17 @@ import (
 	"os"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/MetalBlockchain/metalgo/genesis"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/keychain"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/networkoptions"
-	"github.com/MetalBlockchain/metal-cli/pkg/subnet"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/keychain"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/networkoptions"
+	"github.com/ixAnkit/cryft/pkg/subnet"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/spf13/cobra"
 )
 

@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/ux"
 )
 
 const (

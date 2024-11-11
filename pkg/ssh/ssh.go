@@ -14,12 +14,12 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/monitoring"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/monitoring"
+	"github.com/ixAnkit/cryft/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/ux"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/models"
 )
 
 type scriptInputs struct {

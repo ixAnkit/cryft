@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/mod/semver"

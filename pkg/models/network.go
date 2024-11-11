@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/MetalBlockchain/metalgo/genesis"
 	avagoconstants "github.com/MetalBlockchain/metalgo/utils/constants"
 )

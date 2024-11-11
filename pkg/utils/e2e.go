@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 )
 
 const composeTemplate = `version: '3'

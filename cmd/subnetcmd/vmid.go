@@ -5,7 +5,7 @@ package subnetcmd
 import (
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/MetalBlockchain/metal-network-runner/utils"
 	"github.com/spf13/cobra"
 )

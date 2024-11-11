@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/MetalBlockchain/apm/types"
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/MetalBlockchain/metalgo/version"
 	"github.com/stretchr/testify/require"

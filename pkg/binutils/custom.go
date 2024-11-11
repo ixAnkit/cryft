@@ -3,7 +3,7 @@
 
 package binutils
 
-import "github.com/MetalBlockchain/metal-cli/pkg/application"
+import "github.com/ixAnkit/cryft/pkg/application"
 
 func SetupCustomBin(app *application.Avalanche, subnetName string) string {
 	// Just need to get the path of the vm

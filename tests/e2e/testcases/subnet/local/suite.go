@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/tests/e2e/commands"
-	"github.com/MetalBlockchain/metal-cli/tests/e2e/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/tests/e2e/commands"
+	"github.com/ixAnkit/cryft/tests/e2e/utils"
 	"github.com/MetalBlockchain/metal-network-runner/api"
 	"github.com/ethereum/go-ethereum/common"
 	ginkgo "github.com/onsi/ginkgo/v2"

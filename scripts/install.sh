@@ -11,7 +11,7 @@ Usage: $this [-b] bindir [-d] [tag] [-c]
   -c run the shell completions setup 
   -d turns on debug logging
    [tag] is a tag from
-   https://github.com/MetalBlockchain/metal-cli/releases
+   https://github.com/ixAnkit/cryft/releases
    If tag is missing, then the latest will be used.
 
 EOF

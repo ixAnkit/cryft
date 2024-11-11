@@ -8,10 +8,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/prompts"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/MetalBlockchain/metalgo/vms/platformvm/reward"
 )
 

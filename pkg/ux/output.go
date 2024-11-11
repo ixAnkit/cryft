@@ -12,7 +12,7 @@ import (
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/MetalBlockchain/metal-network-runner/rpcpb"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/fatih/color"

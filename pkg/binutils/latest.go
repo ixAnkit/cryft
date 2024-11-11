@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/MetalBlockchain/metalgo/utils/perms"
 	"go.uber.org/zap"

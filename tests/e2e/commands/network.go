@@ -8,8 +8,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/tests/e2e/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/tests/e2e/utils"
 	"github.com/onsi/gomega"
 )
 

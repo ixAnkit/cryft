@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 )
 
 func removeSlashes(str string) string {

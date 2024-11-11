@@ -6,9 +6,9 @@ package elasticsubnet
 import (
 	"os"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/ux"
 )
 
 func GetLocalElasticSubnetsFromFile(app *application.Avalanche) ([]string, error) {

@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 	"golang.org/x/crypto/ssh/agent"
 )
 

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	oos "github.com/okteto/remote/pkg/os"
 	ossh "github.com/okteto/remote/pkg/ssh"
 	"github.com/stretchr/testify/require"

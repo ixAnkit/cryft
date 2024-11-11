@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/MetalBlockchain/subnet-evm/params"
 	"github.com/MetalBlockchain/subnet-evm/rpc"
 	"github.com/onsi/gomega"

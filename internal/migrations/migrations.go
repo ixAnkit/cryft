@@ -5,8 +5,8 @@ package migrations
 import (
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/ux"
 )
 
 type migrationFunc func(*application.Avalanche, *migrationRunner) error

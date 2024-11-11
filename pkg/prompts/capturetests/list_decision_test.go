@@ -7,8 +7,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/MetalBlockchain/metal-cli/internal/mocks"
-	"github.com/MetalBlockchain/metal-cli/pkg/prompts"
+	"github.com/ixAnkit/cryft/internal/mocks"
+	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

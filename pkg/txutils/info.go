@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/key"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/key"
+	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/MetalBlockchain/metalgo/utils/formatting/address"
 	"github.com/MetalBlockchain/metalgo/vms/platformvm"

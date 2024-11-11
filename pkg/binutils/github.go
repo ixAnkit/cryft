@@ -6,7 +6,7 @@ package binutils
 import (
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 )
 
 const (

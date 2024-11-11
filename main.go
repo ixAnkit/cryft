@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/ixAnkit/cmd"
+	"github.com/ixAnkit/cryft/cmd"
 )
 
 func main() {

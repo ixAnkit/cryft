@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/networkoptions"
-	"github.com/MetalBlockchain/metal-cli/pkg/subnet"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/networkoptions"
+	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/MetalBlockchain/metalgo/vms/platformvm"
 	"github.com/olekukonko/tablewriter"

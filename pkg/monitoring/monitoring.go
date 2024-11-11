@@ -12,8 +12,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/utils"
 )
 
 type configInputs struct {

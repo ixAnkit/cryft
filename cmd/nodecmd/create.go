@@ -17,26 +17,26 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 
-	awsAPI "github.com/MetalBlockchain/metal-cli/pkg/cloud/aws"
+	awsAPI "github.com/ixAnkit/cryft/pkg/cloud/aws"
 
-	"github.com/MetalBlockchain/metal-cli/cmd/flags"
-	"github.com/MetalBlockchain/metal-cli/cmd/subnetcmd"
-	"github.com/MetalBlockchain/metal-cli/pkg/ansible"
-	"github.com/MetalBlockchain/metal-cli/pkg/binutils"
-	"github.com/MetalBlockchain/metal-cli/pkg/networkoptions"
-	"github.com/MetalBlockchain/metal-cli/pkg/ssh"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
-	"github.com/MetalBlockchain/metal-cli/pkg/vm"
+	"github.com/ixAnkit/cryft/cmd/flags"
+	"github.com/ixAnkit/cryft/cmd/subnetcmd"
+	"github.com/ixAnkit/cryft/pkg/ansible"
+	"github.com/ixAnkit/cryft/pkg/binutils"
+	"github.com/ixAnkit/cryft/pkg/networkoptions"
+	"github.com/ixAnkit/cryft/pkg/ssh"
+	"github.com/ixAnkit/cryft/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/vm"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/MetalBlockchain/metalgo/staking"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/models"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/spf13/cobra"
 	"golang.org/x/mod/semver"
 )

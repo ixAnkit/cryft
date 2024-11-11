@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/models"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/application"
 )
 
 const oldSubnetEVM = "SubnetEVM"

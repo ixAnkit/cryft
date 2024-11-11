@@ -19,10 +19,10 @@ import (
 	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm/runtime"
 	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm/runtime/subprocess"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/binutils"
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/binutils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/models"
 	"golang.org/x/mod/semver"
 )
 

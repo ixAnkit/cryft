@@ -2,7 +2,7 @@
 // See the file LICENSE for licensing terms.
 package models
 
-import "github.com/MetalBlockchain/metal-cli/pkg/constants"
+import "github.com/ixAnkit/cryft/pkg/constants"
 
 type VMType string
 

@@ -5,8 +5,8 @@ package binutils
 import (
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/models"
 )
 
 func UpgradeVM(app *application.Avalanche, vmID string, vmBinPath string) error {

@@ -5,7 +5,7 @@ package upgradecmd
 import (
 	"fmt"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/spf13/cobra"
 )
 

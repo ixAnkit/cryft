@@ -5,7 +5,7 @@ package subnetcmd
 import (
 	"testing"
 
-	"github.com/MetalBlockchain/metal-cli/internal/mocks"
+	"github.com/ixAnkit/cryft/internal/mocks"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/MetalBlockchain/metalgo/vms/platformvm"
 	"github.com/stretchr/testify/mock"

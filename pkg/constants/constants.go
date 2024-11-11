@@ -92,7 +92,7 @@ const (
 
 	Cortina17Version = "v1.10.17"
 
-	BootstrapSnapshotRawBranch = "https://github.com/MetalBlockchain/metal-cli/raw/main/"
+	BootstrapSnapshotRawBranch = "https://github.com/ixAnkit/cryft/raw/main/"
 
 	CurrentBootstrapNamePath = "currentBootstrapName.txt"
 

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/MetalBlockchain/metalgo/config"
 	"github.com/stretchr/testify/require"
 )

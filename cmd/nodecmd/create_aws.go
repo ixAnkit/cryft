@@ -9,14 +9,14 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/models"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	"golang.org/x/exp/slices"
 
-	awsAPI "github.com/MetalBlockchain/metal-cli/pkg/cloud/aws"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	awsAPI "github.com/ixAnkit/cryft/pkg/cloud/aws"
+	"github.com/ixAnkit/cryft/pkg/ux"
 )
 
 func getNewKeyPairName(ec2Svc *awsAPI.AwsCloud) (string, error) {

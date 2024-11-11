@@ -6,9 +6,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/application"
-	"github.com/MetalBlockchain/metal-cli/pkg/statemachine"
-	"github.com/MetalBlockchain/metal-cli/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/statemachine"
+	"github.com/ixAnkit/cryft/pkg/ux"
 )
 
 func getChainID(app *application.Avalanche, subnetEVMChainID uint64) (*big.Int, error) {

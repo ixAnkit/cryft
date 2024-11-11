@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"path/filepath"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
 
 	"github.com/spf13/viper"

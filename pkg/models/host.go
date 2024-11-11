@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MetalBlockchain/metal-cli/pkg/constants"
-	"github.com/MetalBlockchain/metal-cli/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/melbahja/goph"
 	"golang.org/x/crypto/ssh"
 )
