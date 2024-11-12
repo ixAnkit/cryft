@@ -9,10 +9,10 @@ import (
 	"math"
 	"time"
 
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ixAnkit/cryft/cmd/subnetcmd"
 	"github.com/ixAnkit/cryft/pkg/networkoptions"
 	"github.com/ixAnkit/cryft/pkg/subnet"
-	"github.com/MetalBlockchain/metalgo/ids"
 
 	"github.com/ixAnkit/cryft/pkg/application"
 

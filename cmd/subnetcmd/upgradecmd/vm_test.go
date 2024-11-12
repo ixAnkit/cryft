@@ -7,6 +7,7 @@ import (
 	"os"
 	"testing"
 
+	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/config"
 	"github.com/ixAnkit/cryft/pkg/constants"
@@ -14,7 +15,6 @@ import (
 	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/stretchr/testify/require"
 )
 

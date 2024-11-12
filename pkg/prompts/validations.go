@@ -15,15 +15,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MetalBlockchain/metalgo/genesis"
+	"github.com/cryft-labs/cryftgo/genesis"
 
+	"github.com/cryft-labs/cryftgo/ids"
+	avagoconstants "github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/cryft-labs/cryftgo/utils/formatting/address"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
-	avagoconstants "github.com/MetalBlockchain/metalgo/utils/constants"
-	"github.com/MetalBlockchain/metalgo/utils/formatting/address"
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func validateEmail(input string) error {

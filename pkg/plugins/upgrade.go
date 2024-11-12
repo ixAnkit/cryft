@@ -4,10 +4,10 @@
 package plugins
 
 import (
+	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
 )
 
 func ManualUpgrade(app *application.Avalanche, sc models.Sidecar, targetVersion string) error {

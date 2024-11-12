@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/internal/testutils"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/stretchr/testify/require"
 )
 

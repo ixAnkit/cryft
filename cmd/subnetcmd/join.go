@@ -10,6 +10,13 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/MetalBlockchain/metal-network-runner/server"
+	"github.com/cryft-labs/cryftgo/genesis"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/formatting/address"
+	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/vms/platformvm"
+	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/binutils"
 	"github.com/ixAnkit/cryft/pkg/constants"
@@ -21,13 +28,6 @@ import (
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metal-network-runner/server"
-	"github.com/MetalBlockchain/metalgo/genesis"
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/utils/formatting/address"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm"
-	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 	"github.com/spf13/cobra"
 )
 
