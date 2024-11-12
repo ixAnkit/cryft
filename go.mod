@@ -3,9 +3,10 @@ module github.com/ixAnkit/cryft
 go 1.21
 
 require (
+	github.com/MetalBlockchain/apm v0.0.4
 	github.com/MetalBlockchain/coreth v0.13.2-rc.3
 	github.com/MetalBlockchain/metal-network-runner v1.6.4-rc.4
-	github.com/cryft-labs/cryftgo v1.0.0-rc
+	github.com/MetalBlockchain/metalgo v1.11.3-rc.1
 	github.com/MetalBlockchain/subnet-evm v0.6.3-rc.1
 	github.com/aws/aws-sdk-go-v2 v1.26.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.9
@@ -26,7 +27,6 @@ require (
 	github.com/pingcap/errors v0.11.4
 	github.com/posthog/posthog-go v0.0.0-20221221115252-24dfed35d71a
 	github.com/shirou/gopsutil v3.21.11+incompatible
-	github.com/MetalBlockchain/apm v0.0.4
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.2
@@ -52,7 +52,6 @@ require (
 	github.com/DataDog/zstd v1.5.2 // indirect
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e // indirect
 	github.com/FactomProject/btcutilecc v0.0.0-20130527213604-d3a63a5752ec // indirect
-	github.com/MetalBlockchain/apm v1.0.0 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
@@ -141,7 +140,6 @@ require (
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/juju/fslock v0.0.0-20160525022230-4d5c94c67b4b // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/kr/fs v0.1.0 // indirect

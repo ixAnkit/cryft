@@ -14,8 +14,6 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/MetalBlockchain/apm/types"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/version"
 	"github.com/ixAnkit/cryft/pkg/binutils"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/models"
@@ -23,6 +21,8 @@ import (
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/version"
 	"gopkg.in/yaml.v3"
 )
 

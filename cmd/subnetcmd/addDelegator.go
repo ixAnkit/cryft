@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 	"github.com/ixAnkit/cryft/pkg/prompts"
+	"github.com/MetalBlockchain/metalgo/genesis"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/keychain"

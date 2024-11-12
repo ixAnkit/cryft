@@ -10,10 +10,16 @@ import (
 	"time"
 
 	"github.com/MetalBlockchain/coreth/ethclient"
-	"github.com/cryft-labs/cryftgo/utils/units"
 	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/MetalBlockchain/metalgo/utils/units"
 	"go.uber.org/zap"
 
+	"github.com/ixAnkit/cryft/pkg/constants"
+	"github.com/ixAnkit/cryft/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/ux"
+	"github.com/ixAnkit/cryft/pkg/vm"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/MetalBlockchain/subnet-evm/commontype"
 	"github.com/MetalBlockchain/subnet-evm/params"
 	"github.com/MetalBlockchain/subnet-evm/precompile/contracts/deployerallowlist"
@@ -22,14 +28,8 @@ import (
 	"github.com/MetalBlockchain/subnet-evm/precompile/contracts/rewardmanager"
 	"github.com/MetalBlockchain/subnet-evm/precompile/contracts/txallowlist"
 	subnetevmutils "github.com/MetalBlockchain/subnet-evm/utils"
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ixAnkit/cryft/pkg/constants"
-	"github.com/ixAnkit/cryft/pkg/prompts"
-	"github.com/ixAnkit/cryft/pkg/utils"
-	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/ixAnkit/cryft/pkg/vm"
 	"github.com/spf13/cobra"
 )
 

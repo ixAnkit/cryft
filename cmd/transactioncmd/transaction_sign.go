@@ -6,7 +6,6 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ixAnkit/cryft/cmd/subnetcmd"
 	"github.com/ixAnkit/cryft/pkg/keychain"
 	"github.com/ixAnkit/cryft/pkg/models"
@@ -14,6 +13,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/txutils"
 	"github.com/ixAnkit/cryft/pkg/ux"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 )
 

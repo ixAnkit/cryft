@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/utils/cb58"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/MetalBlockchain/metalgo/utils/cb58"
+	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
 )
 
 const (

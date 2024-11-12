@@ -7,9 +7,9 @@ import (
 	"encoding/json"
 	"path/filepath"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/utils"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 
 	"github.com/spf13/viper"
 	"go.uber.org/zap"

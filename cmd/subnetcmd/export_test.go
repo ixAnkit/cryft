@@ -9,7 +9,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/internal/mocks"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/constants"
@@ -17,6 +16,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/ixAnkit/cryft/pkg/vm"
 	"github.com/ixAnkit/cryft/tests/e2e/utils"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

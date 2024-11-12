@@ -12,10 +12,6 @@ import (
 	"time"
 	"unicode"
 
-	anr_utils "github.com/MetalBlockchain/metal-network-runner/utils"
-	"github.com/MetalBlockchain/subnet-evm/params"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/cmd/subnetcmd/upgradecmd"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/binutils"
@@ -23,6 +19,10 @@ import (
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/tests/e2e/commands"
 	"github.com/ixAnkit/cryft/tests/e2e/utils"
+	anr_utils "github.com/MetalBlockchain/metal-network-runner/utils"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/subnet-evm/params"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )

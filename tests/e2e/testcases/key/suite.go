@@ -8,11 +8,11 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/utils/units"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/tests/e2e/commands"
 	"github.com/ixAnkit/cryft/tests/e2e/utils"
+	"github.com/MetalBlockchain/metalgo/genesis"
+	"github.com/MetalBlockchain/metalgo/utils/units"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )

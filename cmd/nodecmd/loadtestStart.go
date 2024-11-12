@@ -7,12 +7,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/ssh"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 
 	"golang.org/x/exp/slices"
 
-	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ixAnkit/cryft/pkg/ansible"
 	"github.com/ixAnkit/cryft/pkg/application"
 	awsAPI "github.com/ixAnkit/cryft/pkg/cloud/aws"
@@ -22,6 +21,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/maps"
 	"gopkg.in/yaml.v3"

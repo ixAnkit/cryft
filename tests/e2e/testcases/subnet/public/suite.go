@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	cliutils "github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/tests/e2e/commands"
 	"github.com/ixAnkit/cryft/tests/e2e/utils"
+	"github.com/MetalBlockchain/metalgo/genesis"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )

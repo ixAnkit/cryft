@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/api/info"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/ssh"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
+	"github.com/MetalBlockchain/metalgo/api/info"
 )
 
 // NumNodes is a struct to hold number of nodes with and without stake

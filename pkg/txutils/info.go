@@ -6,13 +6,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/vms/platformvm"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 	"github.com/ixAnkit/cryft/pkg/key"
 	"github.com/ixAnkit/cryft/pkg/models"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/formatting/address"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/txs"
+	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 )
 
 // get network model associated to tx

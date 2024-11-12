@@ -8,7 +8,6 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/ansible"
 	"github.com/ixAnkit/cryft/pkg/application"
 	awsAPI "github.com/ixAnkit/cryft/pkg/cloud/aws"
@@ -18,6 +17,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/ssh"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/pingcap/errors"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"

@@ -19,9 +19,6 @@ import (
 
 	awsAPI "github.com/ixAnkit/cryft/pkg/cloud/aws"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/staking"
-	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/cmd/flags"
 	"github.com/ixAnkit/cryft/cmd/subnetcmd"
 	"github.com/ixAnkit/cryft/pkg/ansible"
@@ -30,6 +27,9 @@ import (
 	"github.com/ixAnkit/cryft/pkg/ssh"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/vm"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/staking"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 
