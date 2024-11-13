@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
+	// echo "Downloading dependencies..."
 	cmd.Execute()
 }

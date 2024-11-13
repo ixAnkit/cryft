@@ -9,7 +9,7 @@ fi
 
 VERSION=`cat VERSION`
 
-BIN=bin/metal
+BIN=bin/cryft
 if [ $# -eq 1 ] ; then
 	BIN=$1
 fi

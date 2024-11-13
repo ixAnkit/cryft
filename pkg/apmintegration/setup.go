@@ -6,8 +6,8 @@ package apmintegration
 import (
 	"os"
 
-	"github.com/MetalBlockchain/apm/apm"
-	"github.com/MetalBlockchain/apm/config"
+	"github.com/ixAnkit/apm/apm"
+	"github.com/ixAnkit/apm/config"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MetalBlockchain/apm/types"
+	"github.com/ixAnkit/apm/types"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"gopkg.in/yaml.v3"
 )
