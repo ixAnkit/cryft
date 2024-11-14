@@ -18,10 +18,10 @@ import (
 	"github.com/ixAnkit/cryft/pkg/statemachine"
 	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/MetalBlockchain/metalgo/snow"
-	"github.com/MetalBlockchain/subnet-evm/core"
-	"github.com/MetalBlockchain/subnet-evm/params"
-	"github.com/MetalBlockchain/subnet-evm/precompile/contracts/txallowlist"
-	"github.com/MetalBlockchain/subnet-evm/utils"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 

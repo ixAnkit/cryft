@@ -38,7 +38,7 @@ import (
 	"github.com/MetalBlockchain/metalgo/vms/platformvm"
 	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
 	"github.com/MetalBlockchain/metalgo/wallet/subnet/primary"
-	"github.com/MetalBlockchain/subnet-evm/ethclient"
+	"github.com/shubhamdubey02/subnet-evm/ethclient"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 )

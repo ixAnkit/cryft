@@ -13,7 +13,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/statemachine"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core"
 	"github.com/ethereum/go-ethereum/common"
 )
 

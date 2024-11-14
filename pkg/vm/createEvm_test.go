@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/ixAnkit/cryft/internal/testutils"
-	"github.com/MetalBlockchain/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

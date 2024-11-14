@@ -7,9 +7,7 @@ toolchain go1.22.9
 require (
 	github.com/MetalBlockchain/coreth v0.13.2-rc.3
 	github.com/MetalBlockchain/metal-network-runner v1.6.4-rc.4
-	github.com/MetalBlockchain/metalgo v1.11.3-rc.1
-	// github.com/ixAnkit/cryftgo v1.0.0-rc
-	github.com/MetalBlockchain/subnet-evm v0.6.3-rc.1
+	github.com/MetalBlockchain/metalgo v1.11.3
 	github.com/aws/aws-sdk-go-v2 v1.26.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.9
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.154.0
@@ -47,6 +45,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+require github.com/shubhamdubey02/subnet-evm v0.6.3-rc.1
 
 require (
 	cloud.google.com/go/compute v1.23.4 // indirect

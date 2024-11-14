@@ -17,7 +17,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/MetalBlockchain/metalgo/utils/logging"
-	"github.com/MetalBlockchain/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core"
 
 	"golang.org/x/exp/maps"
 )

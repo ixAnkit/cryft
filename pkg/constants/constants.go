@@ -210,7 +210,7 @@ const (
 	CliRepoName                   = "metal-cli"
 	TeleporterRepoName            = "teleporter"
 	AWMRelayerRepoName            = "awm-relayer"
-	SubnetEVMReleaseURL           = "https://github.com/MetalBlockchain/subnet-evm/releases/download/%s/%s"
+	SubnetEVMReleaseURL           = "https://github.com/shubhamdubey02/subnet-evm/releases/download/%s/%s"
 	SubnetEVMArchive              = "subnet-evm_%s_linux_amd64.tar.gz"
 	CloudNodeConfigBasePath       = "/home/ubuntu/.metalgo/"
 	CloudNodeSubnetEvmBinaryPath  = "/home/ubuntu/.metalgo/plugins/%s"
@@ -283,7 +283,7 @@ const (
 	AvalancheGoVersionUnknown            = "n/a"
 	AvalancheGoCompatibilityVersionAdded = "v1.9.2"
 	AvalancheGoCompatibilityURL          = "https://raw.githubusercontent.com/MetalBlockchain/metalgo/master/version/compatibility.json"
-	SubnetEVMRPCCompatibilityURL         = "https://raw.githubusercontent.com/MetalBlockchain/subnet-evm/master/compatibility.json"
+	SubnetEVMRPCCompatibilityURL         = "https://raw.githubusercontent.com/shubhamdubey02/subnet-evm/master/compatibility.json"
 
 	YesLabel = "Yes"
 	NoLabel  = "No"

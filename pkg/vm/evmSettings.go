@@ -6,7 +6,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/MetalBlockchain/subnet-evm/commontype"
+	"github.com/shubhamdubey02/subnet-evm/commontype"
 	"github.com/ethereum/go-ethereum/common"
 )
 
