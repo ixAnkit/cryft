@@ -8,8 +8,6 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ixAnkit/cryft/pkg/utils"
-	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/MetalBlockchain/subnet-evm/accounts/abi/bind"
 	"github.com/MetalBlockchain/subnet-evm/core/types"
 	"github.com/MetalBlockchain/subnet-evm/ethclient"
@@ -17,6 +15,8 @@ import (
 	subnetEvmUtils "github.com/MetalBlockchain/subnet-evm/tests/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ixAnkit/cryft/pkg/utils"
+	"github.com/ixAnkit/cryft/pkg/ux"
 )
 
 const (

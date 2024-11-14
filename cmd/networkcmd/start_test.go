@@ -6,10 +6,10 @@ package networkcmd
 import (
 	"testing"
 
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ixAnkit/cryft/internal/mocks"
 	"github.com/ixAnkit/cryft/internal/testutils"
 	"github.com/ixAnkit/cryft/pkg/models"
-	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

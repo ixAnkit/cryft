@@ -10,12 +10,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/ixAnkit/cryft/pkg/ansible"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/spf13/cobra"
 )
 

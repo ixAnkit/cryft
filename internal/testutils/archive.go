@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/MetalBlockchain/metalgo/utils/perms"
+	"github.com/cryft-labs/cryftgo/utils/perms"
 	"github.com/stretchr/testify/require"
 )
 

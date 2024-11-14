@@ -5,9 +5,9 @@ package subnetcmd
 import (
 	"testing"
 
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/vms/platformvm"
 	"github.com/ixAnkit/cryft/internal/mocks"
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

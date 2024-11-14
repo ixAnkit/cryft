@@ -5,6 +5,7 @@ package subnetcmd
 import (
 	"fmt"
 
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/keychain"
 	"github.com/ixAnkit/cryft/pkg/networkoptions"
@@ -13,7 +14,6 @@ import (
 	"github.com/ixAnkit/cryft/pkg/txutils"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 )
 

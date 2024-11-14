@@ -8,9 +8,6 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ixAnkit/cryft/pkg/application"
-	"github.com/ixAnkit/cryft/pkg/prompts"
-	"github.com/ixAnkit/cryft/pkg/statemachine"
 	"github.com/MetalBlockchain/subnet-evm/params"
 	"github.com/MetalBlockchain/subnet-evm/precompile/allowlist"
 	"github.com/MetalBlockchain/subnet-evm/precompile/contracts/deployerallowlist"
@@ -22,6 +19,9 @@ import (
 	"github.com/MetalBlockchain/subnet-evm/precompile/precompileconfig"
 	"github.com/MetalBlockchain/subnet-evm/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ixAnkit/cryft/pkg/application"
+	"github.com/ixAnkit/cryft/pkg/prompts"
+	"github.com/ixAnkit/cryft/pkg/statemachine"
 )
 
 type Precompile string

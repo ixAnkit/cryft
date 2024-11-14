@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ixAnkit/cryft/internal/testutils"
 	"github.com/MetalBlockchain/subnet-evm/core"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ixAnkit/cryft/internal/testutils"
 	"github.com/stretchr/testify/require"
 )
 

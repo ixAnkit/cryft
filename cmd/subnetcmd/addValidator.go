@@ -7,6 +7,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/cryft-labs/cryftgo/ids"
+	avagoconstants "github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/cryft-labs/cryftgo/vms/platformvm"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/keychain"
 	"github.com/ixAnkit/cryft/pkg/models"
@@ -16,9 +19,6 @@ import (
 	"github.com/ixAnkit/cryft/pkg/txutils"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
-	avagoconstants "github.com/MetalBlockchain/metalgo/utils/constants"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm"
 	"github.com/spf13/cobra"
 )
 

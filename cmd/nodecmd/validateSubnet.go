@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MetalBlockchain/metalgo/vms/platformvm/status"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/status"
 
 	"github.com/ixAnkit/cryft/pkg/ansible"
 	"github.com/ixAnkit/cryft/pkg/ssh"
 
+	"github.com/cryft-labs/cryftgo/ids"
 	subnetcmd "github.com/ixAnkit/cryft/cmd/subnetcmd"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/keychain"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/maps"
 )

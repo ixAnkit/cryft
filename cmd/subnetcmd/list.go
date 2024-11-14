@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/MetalBlockchain/metal-network-runner/utils"
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/subnet"
-	"github.com/MetalBlockchain/metal-network-runner/utils"
-	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )

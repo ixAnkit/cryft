@@ -8,11 +8,11 @@ import (
 	"math"
 	"time"
 
+	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm/reward"
 )
 
 // default elastic config parameter values are from
