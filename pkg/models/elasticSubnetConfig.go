@@ -5,7 +5,7 @@ package models
 import (
 	"time"
 
-	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 )
 
 type ElasticSubnetConfig struct {

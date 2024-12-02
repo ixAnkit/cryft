@@ -15,7 +15,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/vm"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/logging"
 	"golang.org/x/mod/semver"
 )
 

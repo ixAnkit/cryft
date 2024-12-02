@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/ixAnkit/cryft/pkg/constants"
-	"github.com/MetalBlockchain/metalgo/config"
+	"github.com/cryft-labs/cryftgo/config"
 	"github.com/stretchr/testify/require"
 )
 

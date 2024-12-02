@@ -9,9 +9,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/MetalBlockchain/coreth/ethclient"
+	"github.com/cryft-labs/coreth/ethclient"
 	"github.com/ixAnkit/cryft/pkg/models"
-	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/cryft-labs/cryftgo/utils/units"
 	"go.uber.org/zap"
 
 	"github.com/ixAnkit/cryft/pkg/constants"
@@ -19,7 +19,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
 	"github.com/ixAnkit/cryft/pkg/vm"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/logging"
 	"github.com/shubhamdubey02/subnet-evm/commontype"
 	"github.com/shubhamdubey02/subnet-evm/params"
 	"github.com/shubhamdubey02/subnet-evm/precompile/contracts/deployerallowlist"

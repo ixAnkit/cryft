@@ -9,16 +9,16 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm/signer"
+	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
 	"golang.org/x/exp/maps"
 
-	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/cryft-labs/cryftgo/utils/units"
 
 	"github.com/ixAnkit/cryft/pkg/ansible"
 	"github.com/ixAnkit/cryft/pkg/keychain"
 
-	"github.com/MetalBlockchain/metalgo/vms/platformvm"
+	"github.com/cryft-labs/cryftgo/vms/platformvm"
 
 	subnetcmd "github.com/ixAnkit/cryft/cmd/subnetcmd"
 	"github.com/ixAnkit/cryft/pkg/constants"
@@ -26,7 +26,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/spf13/cobra"
 )
 

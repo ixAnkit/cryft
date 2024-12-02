@@ -5,10 +5,10 @@ package txutils
 import (
 	"fmt"
 
-	"github.com/MetalBlockchain/metalgo/utils/crypto/secp256k1"
-	"github.com/MetalBlockchain/metalgo/vms/components/verify"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm/txs"
-	"github.com/MetalBlockchain/metalgo/vms/secp256k1fx"
+	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
+	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
 )
 
 // get all subnet auth addresses that are required to sign a given tx

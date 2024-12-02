@@ -21,8 +21,8 @@ import (
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/version"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/version"
 	"gopkg.in/yaml.v3"
 )
 

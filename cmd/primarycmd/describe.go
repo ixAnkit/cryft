@@ -14,8 +14,8 @@ import (
 	"github.com/ixAnkit/cryft/pkg/networkoptions"
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/utils"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
-	"github.com/MetalBlockchain/metalgo/utils/units"
+	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/units"
 
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"

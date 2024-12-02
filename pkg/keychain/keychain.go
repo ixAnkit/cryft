@@ -13,14 +13,14 @@ import (
 	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/utils/crypto/keychain"
-	"github.com/MetalBlockchain/metalgo/utils/crypto/ledger"
-	"github.com/MetalBlockchain/metalgo/utils/formatting/address"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
-	"github.com/MetalBlockchain/metalgo/utils/set"
-	"github.com/MetalBlockchain/metalgo/utils/units"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/crypto/keychain"
+	"github.com/cryft-labs/cryftgo/utils/crypto/ledger"
+	"github.com/cryft-labs/cryftgo/utils/formatting/address"
+	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/cryft-labs/cryftgo/vms/platformvm"
 )
 
 const (

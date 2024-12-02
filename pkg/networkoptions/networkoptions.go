@@ -13,7 +13,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/api/info"
+	"github.com/cryft-labs/cryftgo/api/info"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
 )

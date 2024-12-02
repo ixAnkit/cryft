@@ -7,7 +7,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/logging"
 )
 
 func ManualUpgrade(app *application.Avalanche, sc models.Sidecar, targetVersion string) error {

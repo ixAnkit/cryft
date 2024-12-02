@@ -18,11 +18,11 @@ import (
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/utils/logging"
 
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/utils/set"
-	"github.com/MetalBlockchain/metalgo/vms/platformvm/status"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/cryft-labs/cryftgo/vms/platformvm/status"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
 )

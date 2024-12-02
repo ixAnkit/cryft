@@ -4,7 +4,7 @@ package models
 
 import (
 	"github.com/MetalBlockchain/metal-network-runner/utils"
-	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 )
 
 type NetworkData struct {

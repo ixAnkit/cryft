@@ -2,12 +2,11 @@ module github.com/ixAnkit/cryft
 
 go 1.21.10
 
-toolchain go1.22.9
-
 require (
-	github.com/MetalBlockchain/coreth v0.13.2-rc.3
+	github.com/cryft-labs/coreth v0.1.0-rc
 	github.com/MetalBlockchain/metal-network-runner v1.6.4-rc.4
-	github.com/MetalBlockchain/metalgo v1.11.3
+	github.com/cryft-labs/cryftgo v1.0.0-rc
+	github.com/shubhamdubey02/subnet-evm v0.6.3
 	github.com/aws/aws-sdk-go-v2 v1.26.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.9
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.154.0
@@ -45,8 +44,6 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
-
-require github.com/shubhamdubey02/subnet-evm v0.6.3-rc.1
 
 require (
 	cloud.google.com/go/compute v1.23.4 // indirect
@@ -221,6 +218,6 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
-	gotest.tools/v3 v3.5.1 // indirect
+	gotest.tools/v3 v3.3.0 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )

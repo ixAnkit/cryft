@@ -12,8 +12,8 @@ import (
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/prompts"
-	"github.com/MetalBlockchain/metalgo/utils/logging"
-	"github.com/MetalBlockchain/metalgo/version"
+	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/cryft-labs/cryftgo/version"
 	"github.com/stretchr/testify/require"
 )
 

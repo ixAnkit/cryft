@@ -21,7 +21,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/ux"
 	ANRclient "github.com/MetalBlockchain/metal-network-runner/client"
 	"github.com/MetalBlockchain/metal-network-runner/server"
-	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/shubhamdubey02/subnet-evm/params"
 	"github.com/shubhamdubey02/subnet-evm/precompile/contracts/txallowlist"
 	"github.com/spf13/cobra"

@@ -3,9 +3,9 @@
 package utils
 
 import (
-	"github.com/MetalBlockchain/metalgo/ids"
-	"github.com/MetalBlockchain/metalgo/staking"
-	"github.com/MetalBlockchain/metalgo/utils/crypto/bls"
+	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/cryft-labs/cryftgo/staking"
+	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
 )
 
 func NewBlsSecretKeyBytes() ([]byte, error) {

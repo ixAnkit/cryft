@@ -9,7 +9,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/networkoptions"
 	"github.com/ixAnkit/cryft/pkg/txutils"
-	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/spf13/cobra"
 )
 
