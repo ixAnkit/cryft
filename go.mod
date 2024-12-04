@@ -6,7 +6,7 @@ require (
 	github.com/cryft-labs/coreth v0.1.0-rc
 	github.com/MetalBlockchain/metal-network-runner v1.6.4-rc.4
 	github.com/cryft-labs/cryftgo v1.0.0-rc
-	github.com/shubhamdubey02/subnet-evm v0.6.3
+	github.com/shubhamdubey02/subnet-evm v0.6.12-fuji-example
 	github.com/aws/aws-sdk-go-v2 v1.26.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.9
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.154.0
