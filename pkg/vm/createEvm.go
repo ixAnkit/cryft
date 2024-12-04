@@ -17,7 +17,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/statemachine"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/cryft-labs/cryftgo/snow"
+	"github.com/MetalBlockchain/metalgo/snow"
 	"github.com/shubhamdubey02/subnet-evm/core"
 	"github.com/shubhamdubey02/subnet-evm/params"
 	"github.com/shubhamdubey02/subnet-evm/precompile/contracts/txallowlist"

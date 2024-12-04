@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/vms/platformvm/status"
+	"github.com/MetalBlockchain/metalgo/vms/platformvm/status"
 
 	"github.com/ixAnkit/cryft/pkg/ansible"
 	"github.com/ixAnkit/cryft/pkg/ssh"
@@ -19,7 +19,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/models"
 	"github.com/ixAnkit/cryft/pkg/subnet"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/maps"
 )

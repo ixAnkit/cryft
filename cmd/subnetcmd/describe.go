@@ -11,8 +11,8 @@ import (
 	"strconv"
 
 	anr_utils "github.com/MetalBlockchain/metal-network-runner/utils"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ixAnkit/cryft/pkg/constants"
 	"github.com/ixAnkit/cryft/pkg/key"

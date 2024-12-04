@@ -15,8 +15,8 @@ import (
 	"github.com/ixAnkit/cryft/pkg/monitoring"
 	"github.com/ixAnkit/cryft/pkg/prompts"
 	"github.com/ixAnkit/cryft/pkg/utils"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/ids"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/shubhamdubey02/subnet-evm/core"
 
 	"golang.org/x/exp/maps"

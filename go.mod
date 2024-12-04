@@ -5,7 +5,7 @@ go 1.21.10
 require (
 	github.com/cryft-labs/coreth v0.1.0-rc
 	github.com/MetalBlockchain/metal-network-runner v1.6.4-rc.4
-	github.com/cryft-labs/cryftgo v1.0.0-rc
+	github.com/MetalBlockchain/metalgo v1.11.13-rc.2
 	github.com/shubhamdubey02/subnet-evm v0.6.12-fuji-example
 	github.com/aws/aws-sdk-go-v2 v1.26.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.9
@@ -88,7 +88,7 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
 	github.com/crate-crypto/go-kzg-4844 v0.7.0 // indirect
 	github.com/creack/pty v1.1.11 // indirect
-	github.com/cryft-labs/cryftgo v1.0.0-rc // indirect
+	github.com/MetalBlockchain/metalgo v1.0.0-rc // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/deckarep/golang-set/v2 v2.1.0 // indirect

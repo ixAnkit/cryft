@@ -17,8 +17,8 @@ import (
 
 	"github.com/ixAnkit/cryft/cmd/configcmd"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/perms"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/utils/perms"
 	"github.com/ixAnkit/cryft/cmd/backendcmd"
 	"github.com/ixAnkit/cryft/cmd/keycmd"
 	"github.com/ixAnkit/cryft/cmd/networkcmd"

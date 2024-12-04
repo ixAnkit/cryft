@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"time"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/vm/runtime"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/gruntime"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime/subprocess"
+	pb "github.com/MetalBlockchain/metalgo/proto/pb/vm/runtime"
+	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm/grpcutils"
+	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm/gruntime"
+	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm/runtime"
+	"github.com/MetalBlockchain/metalgo/vms/rpcchainvm/runtime/subprocess"
 
 	"github.com/ixAnkit/cryft/pkg/application"
 	"github.com/ixAnkit/cryft/pkg/binutils"

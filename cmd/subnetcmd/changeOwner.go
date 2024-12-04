@@ -13,7 +13,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/txutils"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/MetalBlockchain/metalgo/ids"
 	"github.com/spf13/cobra"
 )
 

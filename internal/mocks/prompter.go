@@ -5,7 +5,7 @@ package mocks
 import (
 	big "math/big"
 
-	ids "github.com/cryft-labs/cryftgo/ids"
+	ids "github.com/MetalBlockchain/metalgo/ids"
 	common "github.com/ethereum/go-ethereum/common"
 
 	mock "github.com/stretchr/testify/mock"

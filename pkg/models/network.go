@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/ixAnkit/cryft/pkg/constants"
-	"github.com/cryft-labs/cryftgo/genesis"
-	avagoconstants "github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/MetalBlockchain/metalgo/genesis"
+	avagoconstants "github.com/MetalBlockchain/metalgo/utils/constants"
 )
 
 type NetworkKind int64

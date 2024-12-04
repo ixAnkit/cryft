@@ -17,7 +17,7 @@ import (
 	"github.com/ixAnkit/cryft/pkg/ssh"
 	"github.com/ixAnkit/cryft/pkg/utils"
 	"github.com/ixAnkit/cryft/pkg/ux"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/MetalBlockchain/metalgo/utils/logging"
 	"github.com/pingcap/errors"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
