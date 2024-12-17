@@ -3,14 +3,13 @@ module github.com/ixAnkit/cryft
 go 1.21.10
 
 require (
-	github.com/cryft-labs/coreth v0.1.0-rc
 	github.com/MetalBlockchain/metal-network-runner v1.6.4-rc.4
 	github.com/MetalBlockchain/metalgo v1.11.3-rc.1
-	github.com/shubhamdubey02/subnet-evm v0.6.12-fuji-example
 	github.com/aws/aws-sdk-go-v2 v1.26.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.9
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.154.0
 	github.com/chelnak/ysmrr v0.4.0
+	github.com/cryft-labs/coreth v0.1.0-rc
 	github.com/docker/docker v26.0.0+incompatible
 	github.com/ethereum/go-ethereum v1.13.8
 	github.com/fatih/color v1.16.0
@@ -27,6 +26,7 @@ require (
 	github.com/pingcap/errors v0.11.4
 	github.com/posthog/posthog-go v0.0.0-20221221115252-24dfed35d71a
 	github.com/shirou/gopsutil v3.21.11+incompatible
+	github.com/shubhamdubey02/subnet-evm v0.6.12-fuji-example
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.2
@@ -52,6 +52,7 @@ require (
 	github.com/DataDog/zstd v1.5.2 // indirect
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e // indirect
 	github.com/FactomProject/btcutilecc v0.0.0-20130527213604-d3a63a5752ec // indirect
+	github.com/MetalBlockchain/coreth v0.13.2-rc.3 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
@@ -86,9 +87,10 @@ require (
 	github.com/consensys/bavard v0.1.13 // indirect
 	github.com/consensys/gnark-crypto v0.12.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
+	github.com/crate-crypto/go-ipa v0.0.0-20231025140028-3c0104f4b233 // indirect
 	github.com/crate-crypto/go-kzg-4844 v0.7.0 // indirect
 	github.com/creack/pty v1.1.11 // indirect
-	github.com/MetalBlockchain/metalgo v1.0.0-rc // indirect
+	github.com/cryft-labs/cryftgo v1.0.0-rc // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/deckarep/golang-set/v2 v2.1.0 // indirect
@@ -101,6 +103,7 @@ require (
 	github.com/fjl/memsize v0.0.0-20190710130421-bcb5799ab5e5 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08 // indirect
+	github.com/gballet/go-verkle v0.1.1-0.20231031103413-a67434b50f46 // indirect
 	github.com/getsentry/sentry-go v0.18.0 // indirect
 	github.com/gliderlabs/ssh v0.3.5 // indirect
 	github.com/go-cmd/cmd v1.4.1 // indirect
